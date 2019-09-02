@@ -146,10 +146,15 @@ select {
     }
 
     button {
-        margin-right: .3rem;
+        margin-right: .9rem;
+        min-width: 72px;
     }
 
     .marg {
-        margin-right: .3rem;
+        margin-right: .8rem;
+    }
+
+    .mobMarg {
+        margin-left: 11px;
     }
 }
