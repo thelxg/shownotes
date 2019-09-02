@@ -1,0 +1,131 @@
+body {
+    background: #f6f5f3;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+header, footer {
+    background: #3d3d3f;
+    color: #fff;
+}
+
+.colorBG {
+    background: #f6f5f3;
+}
+
+.wrapper {
+    margin-top: 175px;
+}
+
+#eli {
+    width: 40px;
+}
+
+#red {
+    color: #ee4720;
+    font-family: sans-serif;
+    margin-right: 4px;
+}
+
+.row {
+    margin-bottom: .5rem;
+}
+
+#headerLogo {
+    width: 25px;
+    margin: 0 4px 4px 3px;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: #ee4720;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+    background: #3d3d3f;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    margin: 0;
+    border: 3px inset #fff;
+    border-radius: 4px;
+    min-width: 166px;
+}
+
+#buttons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border-radius: 4px;
+    background: #fff;
+    font-size: 18px;
+    min-width: 82px;
+    transition: all .1s;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+button:active {
+    box-shadow: none;
+    transform: scale(.99);
+}
+
+button:focus, select:focus, input:focus {
+    outline: 0;
+}
+
+/* .showNotes {
+    background: #f8f8f8;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+} */
+
+input {
+    min-width: 190px;
+}
+
+select {
+    font-size: 18px;
+    padding: .5rem;
+    background: #fff;
+}
+
+/* #newShow {
+    display: none;
+} */
+
+.showSectionDiv {
+    border-top: 1px solid rgb(189, 189, 189);
+}
+
+.showSection {
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 5px;
+}
+
+.expiring {
+    background: yellow;
+}
+
+.timeOut {
+    background: #ee4720;
+}
+
+.showText {
+    width: 100%;
+    border: 1px solid #cecece;
+}
+
+#addSection {
+    cursor: pointer;
+}
